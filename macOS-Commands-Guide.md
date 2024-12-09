@@ -1,7 +1,7 @@
-## Important Commands for macOS:
+# Important Commands for macOS:
 
 
-# Comandos Básicos do Terminal:
+## Comandos Básicos do Terminal:
 
 
 pwd
@@ -71,7 +71,7 @@ exit
 > Sai do terminal ou encerra a sessão.
 
 
-# Comandos Git Essenciais:
+## Comandos Git Essenciais:
 
 
 git init
@@ -111,7 +111,7 @@ git merge nome_da_branch
 > Mescla a branch especificada com a branch atual.
 
 
-# Comandos Modernos e Úteis:
+## Comandos Modernos e Úteis:
 
 
 tree
@@ -178,10 +178,10 @@ sudo
 > Executa um comando como superusuário (root).
 
 
-## Important Homebrew Commands:
+# Important Homebrew Commands:
 
 
-# Instalação e Atualização:
+## Instalação e Atualização:
 
 
 > Instalar o Homebrew (caso ainda não tenha): 
@@ -203,7 +203,7 @@ brew update && brew upgrade
 > Isso é útil para atualizar o Homebrew e todos os pacotes instalados de forma eficiente.
 
 
-# Pesquisa de Pacotes:
+## Pesquisa de Pacotes:
 
 
 brew search nome_do_pacote
@@ -213,7 +213,7 @@ brew info nome_do_pacote
 > Mostrar informações detalhadas sobre um pacote específico.
 
 
-# Instalação e Remoção de Pacotes:
+## Instalação e Remoção de Pacotes:
 
 
 brew install nome_do_pacote
@@ -226,7 +226,7 @@ brew uninstall nome_do_pacote
 > Remover um pacote instalado.
 
 
-# Gerenciamento de Serviços:
+## Gerenciamento de Serviços:
 
 
 brew services list
@@ -242,7 +242,7 @@ brew services restart nome_do_pacote
 > Reiniciar um serviço gerenciado pelo Homebrew.
 
 
-# Diagnóstico:
+## Diagnóstico:
 
 
 brew doctor
@@ -258,7 +258,7 @@ brew deps nome_do_pacote
 > Verificar dependências de um pacote específico.
 
 
-# Gestão de Casks (Aplicativos GUI e Pacotes Grandes):
+## Gestão de Casks (Aplicativos GUI e Pacotes Grandes):
 
 
 brew install --cask nome_do_app
@@ -273,7 +273,7 @@ brew uninstall --cask nome_do_app
 brew search --cask nome_do_app
 > Pesquisar aplicativos disponíveis para cask.
 
-# Exemplo de Fluxo Completo
+## Exemplo de Fluxo Completo
 
 brew search git
 > Pesquisar um pacote.
