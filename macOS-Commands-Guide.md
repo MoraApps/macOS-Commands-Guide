@@ -11,7 +11,7 @@ ls
 >  Lista os arquivos e diretórios no diretório atual.
 
 ls -a
-> Lista todos os arquivos, incluindo os ocultos **(que começam com um ponto)**.
+> Lista todos os arquivos, incluindo os ocultos __(que começam com um ponto)__.
 
 ls -l
 > Lista os arquivos em formato longo **(com permissões, proprietário, tamanho e data)**.
