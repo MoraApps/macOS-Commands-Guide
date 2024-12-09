@@ -11,13 +11,13 @@ ls
 >  Lista os arquivos e diretórios no diretório atual.
 
 ls -a
-> Lista todos os arquivos, incluindo os ocultos (que começam com um ponto).
+> Lista todos os arquivos, incluindo os ocultos **(que começam com um ponto)**.
 
 ls -l
-> Lista os arquivos em formato longo (com permissões, proprietário, tamanho e data).
+> Lista os arquivos em formato longo **(com permissões, proprietário, tamanho e data)**.
 
 ls -lh
-> Lista os arquivos com detalhes e tamanhos de arquivo em formato legível (ex: KB, MB).
+> Lista os arquivos com detalhes e tamanhos de arquivo em formato legível **(ex: KB, MB)**.
 
 ls -R
 > Lista os arquivos de forma recursiva, ou seja, incluindo os arquivos dentro de subdiretórios.
@@ -26,7 +26,7 @@ cd
 > Muda o diretório atual.
 
 cd ..
-> Vai para o diretório acima (um nível superior).
+> Vai para o diretório acima **(um nível superior)**.
 
 cd ~
 > Vai para o diretório home do usuário.
@@ -44,7 +44,7 @@ rm -r
 > Remove um diretório e seu conteúdo.
 
 rm -rf
-> Remove um diretório e seu conteúdo de forma forçada (sem pedir confirmação).
+> Remove um diretório e seu conteúdo de forma forçada **(sem pedir confirmação)**.
 
 touch
 > Cria um novo arquivo vazio ou atualiza a data de modificação de um arquivo existente.
@@ -59,7 +59,7 @@ tail
 > Exibe as últimas 10 linhas de um arquivo.
 
 tail -f
-> Exibe as últimas linhas de um arquivo e continua mostrando à medida que o arquivo é alterado (ideal para logs).
+> Exibe as últimas linhas de um arquivo e continua mostrando à medida que o arquivo é alterado **(ideal para logs)**.
 
 clear
 > Limpa o terminal.
@@ -78,7 +78,7 @@ git init
 > Inicializa um novo repositório Git no diretório atual.
 
 git status
-> Mostra o status do repositório (quais arquivos foram modificados, adicionados, etc.).
+> Mostra o status do repositório **(quais arquivos foram modificados, adicionados, etc.)**.
 
 git add .
 > Adiciona todos os arquivos modificados ao repositório para o próximo commit.
@@ -104,10 +104,10 @@ git clone [url]
 git branch
 > Lista todas as branches no repositório.
 
-git checkout nome_da_branch
+git checkout **nome_da_branch**
 > Muda para a branch especificada.
 
-git merge nome_da_branch
+git merge **nome_da_branch**
 > Mescla a branch especificada com a branch atual.
 
 
@@ -115,10 +115,10 @@ git merge nome_da_branch
 
 
 tree
-> Exibe a estrutura de diretórios em forma de árvore (visualização hierárquica).
+> Exibe a estrutura de diretórios em forma de árvore **(visualização hierárquica)**.
 
 htop
-> Exibe uma interface interativa para monitoramento do uso de recursos do sistema (como CPU, memória, processos).
+> Exibe uma interface interativa para monitoramento do uso de recursos do sistema **(como CPU, memória, processos)**.
 
 df
 > Exibe o uso do espaço em disco do sistema de arquivos.
@@ -136,7 +136,7 @@ ps
 > Exibe os processos em execução no sistema.
 
 kill
-> Encerra um processo pelo seu ID (PID). “(Process ID). Esse ID é atribuído automaticamente pelo sistema quando o processo é iniciado.”
+> Encerra um processo pelo seu ID **(PID)**. **(Process ID)**. Esse ID é atribuído automaticamente pelo sistema quando o processo é iniciado.
 
 killall
 > Encerra todos os processos com o nome especificado.
@@ -166,7 +166,7 @@ wget
 > Baixa arquivos da internet.
 
 tar
-> Comprime ou descomprime arquivos (arquivos tar).
+> Comprime ou descomprime arquivos **(arquivos tar)**.
 
 zip
 > Comprime arquivos em formato .zip.
@@ -175,7 +175,7 @@ unzip
 > Descomprime arquivos .zip.
 
 sudo
-> Executa um comando como superusuário (root).
+> Executa um comando como superusuário **(root)**.
 
 
 # Important Homebrew Commands:
@@ -184,7 +184,7 @@ sudo
 ## Instalação e Atualização:
 
 
-> Instalar o Homebrew (caso ainda não tenha): 
+> Instalar o Homebrew **(caso ainda não tenha)**: 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew update
@@ -197,32 +197,33 @@ brew cleanup
 > Remover versões antigas de pacotes desnecessários.
 
 brew update && brew upgrade
-> Uso de comandos combinados, ex.# Uso de Comandos Combinados: brew update && brew upgrade.  
-> O comando `brew update` verifica e atualiza o Homebrew para a versão mais recente. 
-> O operador `&&` garante que o próximo comando (`brew upgrade`) seja executado apenas se o anterior foi bem-sucedido.  
+> Uso de comandos combinados, **ex:**
+> Uso de Comandos Combinados: brew update && brew upgrade.  
+> O comando **(`brew update`)** verifica e atualiza o Homebrew para a versão mais recente. 
+> O operador **(`&&`)** garante que o próximo comando **(`brew upgrade`)** seja executado apenas se o anterior foi bem-sucedido.  
 > Isso é útil para atualizar o Homebrew e todos os pacotes instalados de forma eficiente.
 
 
 ## Pesquisa de Pacotes:
 
 
-brew search nome_do_pacote
+brew search **nome_do_pacote**
 > Pesquisar um pacote disponível no Homebrew.
 
-brew info nome_do_pacote
+brew info **nome_do_pacote**
 > Mostrar informações detalhadas sobre um pacote específico.
 
 
 ## Instalação e Remoção de Pacotes:
 
 
-brew install nome_do_pacote
+brew install **nome_do_pacote**
 > Instalar um pacote específico.
 
-brew reinstall nome_do_pacote
+brew reinstall **nome_do_pacote**
 > Reinstalar um pacote já instalado.
 
-brew uninstall nome_do_pacote
+brew uninstall **nome_do_pacote**
 > Remover um pacote instalado.
 
 
@@ -232,13 +233,13 @@ brew uninstall nome_do_pacote
 brew services list
 > Listar serviços disponíveis instalados pelo Homebrew.
 
-brew services start nome_do_pacote
+brew services start **nome_do_pacote**
 > Iniciar um serviço gerenciado pelo Homebrew.
 
-brew services stop nome_do_pacote
+brew services stop **nome_do_pacote**
 > Parar um serviço gerenciado pelo Homebrew.
 
-brew services restart nome_do_pacote
+brew services restart **nome_do_pacote**
 > Reiniciar um serviço gerenciado pelo Homebrew.
 
 
@@ -248,29 +249,29 @@ brew services restart nome_do_pacote
 brew doctor
 > Verificar se o Homebrew está configurado corretamente.
 
-brew list nome_do_pacote
+brew list **nome_do_pacote**
 > Mostrar o caminho de instalação de um pacote.
 
 brew list
 > Listar todos os pacotes instalados:
 
-brew deps nome_do_pacote
+brew deps **nome_do_pacote**
 > Verificar dependências de um pacote específico.
 
 
 ## Gestão de Casks (Aplicativos GUI e Pacotes Grandes):
 
 
-brew install --cask nome_do_app
+brew install --cask **nome_do_app**
 > Instalar um aplicativo usando um cask.
 
 brew upgrade --cask
 > Atualizar aplicativos instalados por casks.
 
-brew uninstall --cask nome_do_app
+brew uninstall --cask **nome_do_app**
 > Remover um aplicativo instalado por cask.
 
-brew search --cask nome_do_app
+brew search --cask **nome_do_app**
 > Pesquisar aplicativos disponíveis para cask.
 
 ## Exemplo de Fluxo Completo
